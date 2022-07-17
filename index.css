@@ -1,0 +1,65 @@
+*,
+*::before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border__bottom {
+    border-bottom: .2rem solid rgb(77, 155, 77);
+}
+
+.header {
+    background-color: rgb(166, 229, 166);
+}
+
+.wrapper {
+    width: 90%;
+}
+
+.wrapper--navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    min-height: 3rem
+}
+
+.wrapper--navigation {
+    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+.navigation a:link,
+.navigation a:visited
+{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: opacity 400ms ease-in-out;
+}
+
+section {
+    height: 100vh;
+    background-color: rgb(196, 240, 196);
+}
+
+.home {
+    height: 90vh;
+}
+
+
+
+
